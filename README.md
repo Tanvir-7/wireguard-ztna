@@ -127,7 +127,7 @@ The WireGuard interface was assigned as a dedicated pfSense interface (`WIREGUAR
 
 Screenshot: `wireguard-tunnel.png` — pfSense WireGuard tunnel configuration showing listen port and interface address
 
-Screenshot: `wireguard-status.png` — pfSense WireGuard status page showing active peer with last handshake time and transfer data
+
 
 ---
 
