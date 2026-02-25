@@ -209,10 +209,6 @@ Screenshot: `android-wireguard-config.png` — WireGuard app on Android showing 
 
 ---
 
-
-
----
-
 ## Challenges Solved
 
 Real problems encountered and resolved during this project:
