@@ -204,24 +204,12 @@ Setting `AllowedIPs = 0.0.0.0/0` routes all device traffic through the encrypted
 
 Screenshot: `android-wireguard-config.png` — WireGuard app on Android showing the configured tunnel interface and peer settings
 
-Screenshot: `android-wireguard-connected.png` — WireGuard app showing active connection with data transfer confirmed
+Screenshot: `android-wireguard-config.png` — WireGuard app on Android showing the configured tunnel interface and peer settings
+
 
 ---
 
-## Validation
 
-Three tests were performed to confirm the Zero-Trust setup is fully operational:
-
-### Test 1 — Encrypted tunnel confirmed
-Connected the Android client on mobile data (outside the home network). The WireGuard tunnel activated successfully and `whatismyip.com` returned the homelab's public IP — confirming all traffic is routed through the encrypted tunnel.
-
-### Test 2 — Server VLAN access confirmed
-With the VPN active, pinged and accessed resources on the Server VLAN. Connections succeeded as expected — the Pass firewall rule is functioning correctly.
-
-### Test 3 — User VLAN blocked confirmed
-With the VPN active, attempted to reach a device on the User VLAN. Connection timed out — the Block firewall rule is enforcing the Zero-Trust boundary as designed.
-
-Screenshot: `wireguard-handshake.png` — pfSense WireGuard Status showing peer with recent last handshake timestamp and non-zero transfer bytes
 
 ---
 
