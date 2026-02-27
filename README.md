@@ -167,6 +167,8 @@ Firewall rules on the `WIREGUARD` interface enforce which network segments authe
 | 1 | **Pass** | `10.0.99.0/24` | Server VLAN | Allow VPN clients to reach servers |
 | 2 | **Block** | `10.0.99.0/24` | User VLAN | Prevent lateral movement to user network |
 
+![firewall-wireguard-rules](Screenshots/wireguard/firewall-wireguard-rules.png)
+
 **WAN rule** (separate tab):
 
 | Action | Protocol | Destination | Port | Purpose |
@@ -176,7 +178,7 @@ Firewall rules on the `WIREGUARD` interface enforce which network segments authe
 This rule ordering ensures that even a fully authenticated VPN client cannot reach the User VLAN — authentication grants network entry, not blanket access. Each VLAN is treated as a separate trust boundary.
 
 <!-- Screenshot: `firewall-wireguard-rules.png` — pfSense Firewall > Rules > WIREGUARD tab showing the pass and block rules in order-->
-![firewall-wireguard-rules](Screenshots/wireguard/firewall-wireguard-rules.png)
+
 
 <!--Screenshot: `firewall-wan-rule.png` — pfSense Firewall > Rules > WAN tab showing the UDP 51820 allow rule-->
 ![firewall-wan-rule](Screenshots/wireguard/firewall-wan-rule.png)
