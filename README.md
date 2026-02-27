@@ -211,8 +211,8 @@ Setting `AllowedIPs = 0.0.0.0/0` routes all device traffic through the encrypted
 <!--Screenshot: `android-wireguard-config.png` — WireGuard app on Android showing the configured tunnel interface and peer settings
 
 Screenshot: `android-wireguard-config.png` — WireGuard app on Android showing the configured tunnel interface and peer settings-->
-![android-wireguard]()
-![android-wireguard]()
+![android-wireguard](Screenshots/wireguard/android-wireguard-config%20(2).jpeg)
+![android-wireguard](Screenshots/wireguard/android-wireguard-config.jpeg)
 
 
 
