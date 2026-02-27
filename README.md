@@ -208,9 +208,12 @@ The Android client was configured using the WireGuard app with the following par
 
 Setting `AllowedIPs = 0.0.0.0/0` routes all device traffic through the encrypted tunnel, ensuring no traffic leaks to the local network while connected.
 
-Screenshot: `android-wireguard-config.png` — WireGuard app on Android showing the configured tunnel interface and peer settings
+<!--Screenshot: `android-wireguard-config.png` — WireGuard app on Android showing the configured tunnel interface and peer settings
 
-Screenshot: `android-wireguard-config.png` — WireGuard app on Android showing the configured tunnel interface and peer settings
+Screenshot: `android-wireguard-config.png` — WireGuard app on Android showing the configured tunnel interface and peer settings-->
+![android-wireguard]()
+![android-wireguard]()
+
 
 
 ---
