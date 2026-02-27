@@ -152,7 +152,9 @@ Every client device receives a **unique cryptographic key pair** — public and 
 
 Using `/32` per peer means each device is individually identifiable at the firewall level. Any single device can be revoked by deleting its peer entry without affecting any other device.
 
-Screenshot: `wireguard-peers.png` — pfSense Peers tab showing the Android peer with its assigned VPN IP and public key
+<!--Screenshot: `wireguard-peers.png` — pfSense Peers tab showing the Android peer with its assigned VPN IP and public key -->
+![wireguard-peers](Screenshots/wireguard/wireguard-peers.png)
+
 
 ---
 
