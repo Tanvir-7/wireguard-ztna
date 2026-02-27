@@ -125,7 +125,7 @@ WireGuard was installed on pfSense via the Package Manager and configured as the
 
 The WireGuard interface was assigned as a dedicated pfSense interface (`WIREGUARD`) so that granular firewall rules could be applied specifically to VPN traffic — separating it cleanly from LAN, WAN, and VLAN traffic.
 
-Screenshot: `wireguard-tunnel.png` — pfSense WireGuard tunnel configuration showing listen port and interface address
+<!-- Screenshot: `wireguard-tunnel.png` — pfSense WireGuard tunnel configuration showing listen port and interface address-->
 ![wireguard-tunnel](Screenshots/wireguard/wireguard-tunnel.png)
 
 
