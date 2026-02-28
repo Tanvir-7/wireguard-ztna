@@ -1,7 +1,5 @@
 # Project 3 — Zero-Trust Remote Access
 
-> Built on top of [Project 2 — Enterprise Monitoring & Observability Stack](../project-2)
-
 A fully self-hosted, production-grade remote access system built on WireGuard VPN and pfSense. Implements Zero-Trust principles through per-device cryptographic identity, role-based firewall enforcement, and least-privilege network segmentation — all running on a Proxmox homelab.
 
 ---
