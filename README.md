@@ -248,5 +248,3 @@ After assigning the `tun_wg0` interface in pfSense, the interface was saved but 
 
 ---
 
-> **Project 2:** [Enterprise Monitoring & Observability Stack](../project-2)
-> **Project 4:** Coming soon
